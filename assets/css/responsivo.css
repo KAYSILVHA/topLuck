@@ -1,3 +1,51 @@
+@media(max-width: 900px){
+  //adicionar o menu sanduiche
+  .btn-mobile{
+    display: block;
+  }
+
+  button#btn-mobile{
+    background-color: transparent;
+    width: 60px;
+    height: 80%;
+    display: block;
+    border: none;
+  }
+
+  #btn-mobile img{
+    width: 100%;
+  }
+
+  #nav ul{
+    display: none;
+  }
+
+  #nav.active #menu{
+    z-index: 10000;
+    right: 6px;
+    display: flex;
+    flex-direction: column;
+    background-color: #76179D;
+    border: 1px solid #FEBD59;
+    
+  }
+
+  #nav.active #menu a{
+    font-size: 1em;
+    border: 1px solid #FEBD59;
+  }
+
+  #menu{
+    position: absolute;
+  }
+
+  #nav.active #menu li{
+    padding: 10px;
+  }
+
+}
+
+
 @media (max-width: 600px){
   main{
     height: calc(100vh - 10vh);
@@ -5,7 +53,7 @@
 
   }
 
-  nav{
+  ul{
     display: none;
   }
 
@@ -14,19 +62,20 @@
   }
 
   .logo h2{
-    font-size: 1.9em;
+    font-size: 0.6em;
   }
 
-  button{
+  button#iniciar{
     display: block;
   }
+
   .bloco{
+    display: none;
+  }
+
+  .imagem{
     display: none;
   }
 
 }
 
-
-@media(max-width: 900px){
-  //adicionar o menu sanduiche
-}
