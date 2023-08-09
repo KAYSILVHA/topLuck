@@ -1,0 +1,32 @@
+@media (max-width: 600px){
+  main{
+    height: calc(100vh - 10vh);
+    padding: 0 20px;
+
+  }
+
+  nav{
+    display: none;
+  }
+
+  h1{
+    font-size: 3.5em;
+  }
+
+  .logo h2{
+    font-size: 1.9em;
+  }
+
+  button{
+    display: block;
+  }
+  .bloco{
+    display: none;
+  }
+
+}
+
+
+@media(max-width: 900px){
+  //adicionar o menu sanduiche
+}
