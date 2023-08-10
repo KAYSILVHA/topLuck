@@ -44,6 +44,66 @@
     padding: 10px;
   }
 
+  .second{
+    height: auto;
+    padding: 10px;
+  }
+
+  figure{
+    width: 100%;
+  }
+  
+  .second img{
+    width: 90%;
+  }
+
+  .modelo,
+  .formatacoes{
+    width: 100vw;
+    align-items: center;
+  }
+
+  .bloco-modelo,
+  .bloco-formatar{
+    width: 90%;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+  }
+
+  .first-line{
+    flex-direction: column;
+  }
+  .selecionar-modelo,
+  .selecionar-opcoes{
+    flex-direction: column;
+  }
+
+  .bloco-filtro{
+    width: 100%;
+    padding: 0;
+  }
+
+  .bloco-filtro div{
+    width: 150px;
+  }
+  .pesquisa{
+    width: 80vw;
+  }
+
+  .materias{
+    width: 90%;
+  }
+  .materia{
+    width: 90%;
+  }
+
+  footer{
+    justify-content: center;
+  }
   
 }
 
@@ -74,9 +134,7 @@
     display: none;
   }
 
-  .imagem{
-    display: none;
-  }
+  
 
 }
 

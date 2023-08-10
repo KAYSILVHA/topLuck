@@ -3,3 +3,129 @@
   color: white;
   z-index: 200;
 }
+
+main{
+  color: white;
+}
+
+.filtros{
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.bloco-filtro{
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.bloco-filtro div{
+  width: 210px;
+  height: 40px;
+  background-color: #d5d5d550;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.materias{
+  width: 60%;
+  height: auto;
+  background-color: #d5d5d560;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.pesquisa{
+  width: 450px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  color: #d9d9d9;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 10px;
+  position: relative;
+  bottom: 40px;
+}
+
+.pesquisa img{
+  width: 30px;
+  height: 30px;
+}
+
+.materia{
+  display: flex;
+  width: 55%;
+  height: 70px;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #d5d5d580;
+}
+.materia h2{
+  width: 55%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+}
+
+.materia img{
+  width: 25%;
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.escolha-materia{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+footer{
+  width: 100vw;
+  display: flex;
+  height: 12vh;
+  justify-content: flex-end;
+  padding: 30px 50px;
+  color: white;
+  background-color: #BDA3C4;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+}
+
+footer h3{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.filtro.checked{
+  background-color: #05050580;
+}

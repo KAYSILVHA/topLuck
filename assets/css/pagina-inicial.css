@@ -4,13 +4,6 @@ h1{
   -webkit-text-stroke-color: #A5029F;
 }
 
-.imagem img{
-  width: 50vw;
-  border-radius: 20px;
-  opacity: .5;
-}
-
-
 button#iniciar{
   padding: 10px 30px;
   border-radius: 10px;
@@ -21,7 +14,6 @@ button#iniciar{
   font-size: 18px;
   width: 200px;
   height: 50px;
-  display: none;
 }
 
 
@@ -39,4 +31,43 @@ button#iniciar{
   font-size: 2.5em;
   color: white;
   z-index: 200;
+}
+
+.innitial{
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.second{
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+figure{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.second img{
+  width: 200px;
+  height: 250px;
+  border: 3px solid #A5029F;
+  padding: 5px;
+  transition: .5s;
+}
+
+.second img:hover{
+  width: calc(190px * 2);
 }
