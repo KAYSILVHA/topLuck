@@ -1,0 +1,101 @@
+.logo h2{
+  font-size: 2.5em;
+  color: white;
+  z-index: 200;
+}
+
+
+.formatacoes,
+.modelo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  color: white;
+}
+
+.bloco-formatar,
+.bloco-modelo{
+  background-color: #D9D9D950;
+  border-radius: 50px;
+  width: 50vw;
+  height: auto;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.bloco-formatar h3,
+.bloco-modelo h3{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.first-line{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.fontes,
+.espacamento{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+
+.second-line,
+.third-line{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start
+}
+
+.selecionar-modelo{
+  display: flex;
+  gap: 25px;
+}
+
+.selecionar-modelo div{
+  display: flex;
+  gap: 5px;
+}
+
+.selecionar-opcoes{
+  display: flex;
+  gap: 25px;
+}
+
+.selecionar-opcoes div{
+  display: flex;
+  gap: 5px;
+}
+
+
+.opcoes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bloco-modelo{
+  align-items: flex-start;
+}
+
+select{
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #d5d5d550;
+}
+
+.escolher-fonte{
+  display: flex;
+  gap: 10px;
+}

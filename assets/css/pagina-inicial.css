@@ -33,3 +33,10 @@ button#iniciar:hover{
 button#iniciar{
   cursor: pointer;
 }
+
+
+.logo h2{
+  font-size: 2.5em;
+  color: white;
+  z-index: 200;
+}
