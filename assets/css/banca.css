@@ -111,7 +111,7 @@ main{
 footer{
   width: 100vw;
   display: flex;
-  height: 12vh;
+  height: 10vh;
   justify-content: flex-end;
   padding: 30px 50px;
   color: white;
