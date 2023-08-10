@@ -58,7 +58,8 @@
   }
 
   .modelo,
-  .formatacoes{
+  .formatacoes,
+  .cole{
     width: 100vw;
     align-items: center;
   }
