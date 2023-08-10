@@ -101,10 +101,12 @@
     width: 90%;
   }
 
-  footer{
-    justify-content: center;
+  textarea{
+    min-width: 90vw;
+    max-width: 90vw;
+    height: 200px;
   }
-  
+
 }
 
 

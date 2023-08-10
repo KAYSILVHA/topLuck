@@ -5,6 +5,7 @@
 }
 
 
+.cole,
 .formatacoes,
 .modelo{
   display: flex;
@@ -12,6 +13,19 @@
   gap: 10px;
   align-items: flex-start;
   color: white;
+}
+
+.cole{
+
+}
+
+textarea{
+  background-color:  #BDA3C4;
+  border-radius: 20px;
+  padding: 50px;
+  max-width: 50vw;
+  min-width: 50vw;
+  font-size: 20px;
 }
 
 .bloco-formatar,
